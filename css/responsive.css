@@ -1,0 +1,365 @@
+@media (max-width: 1200px) {
+  .header {
+    padding: 0;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-left: 1em;
+    padding: 0;
+  }
+
+  .brand span {
+    font-size: 1.5em;
+  }
+
+  .brand p {
+    font-size: 14px;
+  }
+
+  .links-container {
+    gap: 0;
+  }
+
+  .icons-header {
+    margin: 0;
+  }
+
+  .hero {
+    gap: 2em;
+  }
+  .hero-container {
+    width: 90vw;
+  }
+
+  .hero-container p {
+    width: 50vw;
+  }
+
+  .hero-icones img {
+    width: 150px;
+  }
+
+  .my-picture {
+    width: 350px;
+  }
+
+  .certificates-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .certificates-description img {
+    width: 600px;
+  }
+
+  .contact-icons {
+    width: 90vw;
+    justify-content: center;
+    gap: 4em;
+  }
+}
+
+@media (max-width: 968px) {
+  .menu-burger {
+    display: flex;
+  }
+
+  .links-container {
+    display: none;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+  }
+  .brand span {
+    font-size: 1.5em;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding-top: 2em;
+    gap: 2em;
+  }
+  .hero-container {
+    margin: 0;
+  }
+
+  .hero-container h1 {
+    font-size: 3em;
+  }
+  .hero-container p {
+    width: 80vw;
+    align-self: center;
+    font-size: 1.5em;
+  }
+  .hero-container span {
+    align-self: center;
+    width: 90vw;
+  }
+  .my-picture {
+    width: 500px;
+  }
+  .about-summary {
+    width: 90vw;
+  }
+  .about-summary p {
+    text-align: center;
+  }
+
+  .certificates-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .certificates-description img {
+    width: 600px;
+  }
+
+  .technology {
+    margin-bottom: 2em;
+  }
+
+  .contact-container span {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+
+  .contact_icons-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-icons {
+    width: 90vw;
+    gap: 3em;
+  }
+
+  .contact-icons li a img {
+    width: 60px;
+    margin: 2em 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-burger {
+    display: flex;
+    margin-right: 1em;
+  }
+  #menu-button {
+    margin-left: 1em;
+  }
+  .menu-links {
+    display: none;
+  }
+  .menu-icones {
+    margin: 0;
+  }
+  .header {
+    padding: 0;
+  }
+
+  .brand span {
+    font-size: 1.5em;
+  }
+  .brand p {
+    font-size: 13px;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding-top: 2em;
+    gap: 2em;
+  }
+  .texto-hero {
+    margin: 0;
+  }
+
+  .hero-container h1 {
+    font-size: 2.5em;
+  }
+  .hero-container p {
+    width: 90vw;
+    align-self: center;
+    font-size: 1.5em;
+  }
+  .hero-container span {
+    align-self: center;
+    width: 90vw;
+  }
+  .my-picture {
+    width: 450px;
+  }
+
+  .about-summary {
+    width: 85vw;
+  }
+
+  .certificates-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .certificates-description img {
+    width: 500px;
+  }
+
+  .technology {
+    margin-bottom: 2em;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-container span {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+
+  .contact-icons {
+    width: 90vw;
+    gap: 2em;
+  }
+  .contact-icons li a img {
+    width: 50px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .menu-burger {
+    display: flex;
+    margin-right: 0em;
+  }
+  .menu-links {
+    display: none;
+  }
+  .header {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 1em 0;
+  }
+  .brand span {
+    font-size: 1.2em;
+  }
+  .brand p {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding-top: 2em;
+    gap: 2em;
+  }
+
+  .hero-container h1 {
+    font-size: 3em;
+  }
+  .hero-container p {
+    width: 90vw;
+    align-self: center;
+    font-size: 1.5em;
+  }
+  .hero-container span {
+    align-self: center;
+    min-width: 90vw;
+    font-size: 14px;
+  }
+  .hero-icones {
+    margin-top: 1em;
+  }
+  .hero-icones img {
+    width: 130px;
+  }
+  .my-picture {
+    width: 400px;
+  }
+  .projects-container {
+    flex-direction: column;
+  }
+  .project {
+    width: 75vw;
+    flex-direction: column;
+  }
+  .header-project {
+    width: 60vw;
+    align-self: center;
+  }
+  .header-project span {
+    text-align: center;
+  }
+  .header-project p {
+    font-size: 1em;
+  }
+  .project img {
+    width: 300px;
+    align-self: center;
+  }
+  .btn-container {
+    gap: 0.5em;
+  }
+  .icons-btn img {
+    width: 35px;
+  }
+
+  .about {
+    margin: 0;
+    padding: 2em 0;
+  }
+
+  .about-me,
+  .about-summary {
+    width: 85vw;
+  }
+
+  .about-summary span {
+    margin: 0 0 1em 0;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .about-summary p {
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.5em;
+  }
+  .certificates-container {
+    margin-bottom: 2em;
+    padding-top: 3em;
+  }
+
+  .certificates-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .certificates-description img {
+    width: 400px;
+  }
+
+  .technology-icons .effects-icons {
+    width: 55px;
+  }
+  .technology-icons .black-icons {
+    width: 45px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-container span {
+    font-size: 1.3em;
+  }
+
+  .contact-icons {
+    gap: 3em;
+  }
+  .contact-icons li a img {
+    width: 40px;
+    margin: 0 2em;
+  }
+}

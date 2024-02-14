@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --fonte-principal: "Share Tech Mono", monospace;
+  --fonte-secudaria: "Orbitron", sans-serif;
+  --fonte-terciaria: "Roboto", sans-serif;
+
+  --cor-primaria: #3249cb;
+  --cor-secundaria: #1e1e21;
+  --preto-primario: #121214;
+  --preto-secundario: #151518;
+  --branco-primario: #f7f7fa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

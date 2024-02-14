@@ -1,0 +1,64 @@
+.certificates {
+  background-color: var(--preto-primario);
+  display: flex;
+  justify-content: center;
+}
+
+.certificates-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6em;
+}
+
+.certificates-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-bottom: 2em;
+}
+.certificates-description {
+  -webkit-transition: 0.1s ease;
+  transition: 0.5s ease;
+}
+.certificates-description:hover {
+  box-shadow: 0px 0px 50px -15px var(--cor-primaria);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.img-certificado {
+  width: 350px;
+}
+
+.technology {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.technology-icons {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  margin-top: 1em;
+  gap: 1em;
+  border-radius: 1em;
+  box-shadow: 0px 0px 50px -10px var(--cor-primaria);
+}
+.icons-container {
+  margin-bottom: 4em;
+}
+.technology-icons li img {
+  width: 90px;
+}
+.effects-icons {
+  -webkit-transition: 0.1s ease;
+  transition: 0.5s ease;
+}
+.effects-icons:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(0.9);
+}
+
+.black-icons {
+  filter: grayscale(100%);
+}
